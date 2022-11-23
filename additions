@@ -1,0 +1,12 @@
+# Channel Upgrades
+  system.autoUpgrade.channel = https://nixos.org/channels/nixos-22.05;
+ 
+# Automatic Upgrades
+  system.autoUpgrade.enable = true;
+  system.autoUpgrade.allowReboot = true;
+
+
+# # Default $EDITOR #####################
+#   programs.helix.defaultEditor = true;
+#   programs.helix.enable = true;
+
