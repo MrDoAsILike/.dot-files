@@ -77,6 +77,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.ohryx = {
     isNormalUser = true;
+    home = "/home/ohryx";
     description = "Ohryx";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
